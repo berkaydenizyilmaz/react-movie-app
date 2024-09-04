@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #2c3e50;
+  padding: 10px 40px;
+  color: #ecf0f1;
+}
+
+.search-container {
+  display: flex; /* İkon ve input'u hizalamak için flexbox */
+  align-items: center; /* Dikey hizalama */
+}
+
+.search-icon {
+  font-size: 22px;
+  color: #ecf0f1;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-input {
+  border: 1px solid #7f8c8d;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 16px;
+  width: 250px;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 5px rgba(41, 128, 185, 0.7);
+}
